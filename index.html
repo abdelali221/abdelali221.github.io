@@ -1,44 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Abdelali's Junkyard</title>
-    <meta content="Abdelali's Junkyard!" property="og:title">
-    <meta content="Random Junk Trigger Warning" property="og:description">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdelali's Junkyard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-<style>
-    body {background-color: rgb(0, 0, 0);}
-    p {
-       	color: rgb(255, 255, 255);
-        text-align: left;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 17px;
-    }
-
-    h1 {
-        color: white;
-    }
-
-    a {
-        font-size: 17px;
-    }
-</style>
-
 <body>
-    <hr>
-    <h1> Welcome!</h1>
-    <p>Hey there!<br>Welcome to my personal website.</p>
-    <h1>Some of my Projects :<h1>
-    <p>Games :</p>
-    <a href="https://github.com/abdelali221/Snakewii">SnakeWii<br></a>
-    <a href="https://github.com/abdelali221/Snakeds">SnakeDS<br></a>
-    <p>Arduino stuff :</p>
-    <a href="https://github.com/abdelali221/Arduino-toolz">Arduino-Toolz<br></a>
-    <a href="https://github.com/abdelali221/SaveMiiRduino">SaveMiiRduino</a>
-    <h1>Contacts :</h1>
-    <p>Discord : abdelali221<br>
-        Github : <a href="https://github.com/abdelali221">https://github.com/abdelali221</a><br>
-        <a href="aboutme.html">About Me</a>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Abdelali's<span> Junkyard</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#apps">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Abdelali221!</span></h2>
+      <p>A random <strong>developer</strong> who's main goal is to make useful tools.</p>
+      <a href="#apps" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+      I'm a Wii homebrew developer with a few apps here and there.
+      I'm also a passionate of electronics, I spend a lot of my free time repairing random junk that I see potential use in (Or even just for fun).
     </p>
-    <hr>
-    <a href="explore.html">Explore more pages!</a>
-    </body>
+  </section>
+
+  <section id="apps" class="apps container">
+    <h2>Some Stuff I made</h2>
+    <div class="apps-grid">
+      <div class="apps-card">
+        <h3></h3>
+        <p>Brief description of what this apps is and what technologies were used.</p>
+      </div>
+      <div class="apps-card">
+        <h3>Project Two</h3>
+        <p>Another short description showcasing your work and creativity.</p>
+      </div>
+      <div class="apps-card">
+        <h3>Project Three</h3>
+        <p>Explain what makes this apps special or what you learned from it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>Want to get in touch? Reach out via email or connect with me on social media.</p>
+    <a href="mailto:abdelali221@gmail.com" class="btn">Mail Me</a>
+    <a href="https://discord.com/channels/@me/993913417800884274" class="btn">Discord</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Abdelali221 - All rights reserved.</p>
+  </footer>
+</body>
 </html>
