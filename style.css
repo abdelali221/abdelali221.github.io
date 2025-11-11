@@ -108,6 +108,12 @@
     margin-bottom: 1.5rem;
     text-align: center;
   }
+
+  h2 {
+    color: #ff8800;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
   
   /* Projects */
   .project-grid {
