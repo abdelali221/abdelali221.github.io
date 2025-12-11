@@ -58,6 +58,15 @@
     color: #f5f5f5;
     transition: color 0.3s;
   }
+  .contact nav a:hover {
+    color: #ff8800;
+  }
+
+  .contact nav a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s;
+  }
   
   .header nav a:hover {
     color: #ff8800;
@@ -110,6 +119,12 @@
   }
 
   h2 {
+    color: #ff8800;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  h3 {
     color: #ff8800;
     margin-bottom: 1.5rem;
     text-align: center;
