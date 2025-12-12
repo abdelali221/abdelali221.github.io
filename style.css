@@ -111,6 +111,9 @@
   section {
     padding: 4rem 0;
   }
+  p {
+    text-align: center;
+  }
   
   h1 {
     color: #ff8800;
