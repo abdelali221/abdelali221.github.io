@@ -111,9 +111,6 @@
   section {
     padding: 4rem 0;
   }
-  .apps {
-    text-align: center;
-  }
   
   h1 {
     color: #ff8800;
@@ -134,13 +131,13 @@
   }
   
   /* Projects */
-  .project-grid {
+  .apps-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
   }
   
-  .project-card {
+  .apps-card {
     background: #1a1a1a;
     border: 1px solid #333;
     padding: 1.5rem;
@@ -148,7 +145,7 @@
     transition: transform 0.3s, border-color 0.3s;
   }
   
-  .project-card:hover {
+  .apps-card:hover {
     transform: translateY(-5px);
     border-color: #ff8800;
   }
@@ -160,7 +157,7 @@
   
   /* Footer */
   .footer {
-    text-align: center;
+    text-align: left;
     padding: 2rem 0;
     border-top: 1px solid #333;
     color: #888;
