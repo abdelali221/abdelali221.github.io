@@ -6,7 +6,7 @@
   }
 
   section {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 40px;
   }
 
   
@@ -28,6 +28,7 @@
     background: #111;
     border-bottom: 2px solid #d97700;
     padding: 1rem 0;
+    position: sticky;
     top: 0;
     z-index: 100;
   }
@@ -113,7 +114,7 @@
   
   /* Sections */
   section {
-    padding: 4rem 0;
+    padding: 1rem 0;
   }
   
   h1 {
