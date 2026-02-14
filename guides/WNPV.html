@@ -13,7 +13,7 @@
       <h1 class="logo">Abdelali's<span> Junkyard</span></h1>
     </div>
   </section>
-  <section id="Description">
+  <section class="header" id="Description">
     <h1>WNPV</h1>
     <h2>What is it?</h2>
     <p>WNPV stands for Wii Network Profiles Viewer, it's a homebrew app that allows you to see & edit your Wii's network <br> 
@@ -22,32 +22,64 @@
       doesn't take more than half a megabyte in your storage device.</p>
   </section>
   
-  <section id="Start&Reading">
+  <section class="header" id="Start&Reading">
     <h2>Section 1 : Reading the Profiles infos</h2>
-    <p>Upon starting the app, you'll get greeted with this screen :<br><br>
-    <img src="startscreen.jpg">
-    <br><br>Press PLUS to proceed. After that you'll see the path & size of the config file.<br>
-    <br>You should now see something like this :<br><br>
-    <img src="profile.jpg">
+    <p>Upon starting the app, you'll get greeted with this screen :
+    <br><br><img src="startscreen.jpg">
+    <br><br>Press PLUS to proceed. After that you'll see the path & size of the config file.
+    <br><br>You should now see something like this :
+    <br><br><img src="profile.jpg">
     <br><br>This shows all the profile infos, you can press left or right on the D-PAD
     <br>to switch between the different profiles.
     </p>
   </section>
 
-  <section id="Editing">
+  <section class="header" id="Editing">
+
     <h2>Section 3 : Editing Profiles</h2>
-    <p>Before editing, select the desired profile, then press TWO to enter edit mode:<br><br>
-    <img src="editprofile0.jpg">
-    <br><br>You will see like above an arrow pointing to the first setting,<br>
-    <br>you can press A to toggle it:<br><br>
-    <img src="editprofile1.jpg">
+    <p>Before editing, select the desired profile, then press TWO to enter edit mode :
+    <br><br><img src="editprofile0.jpg">
+    <br><br>You will see like above an arrow pointing to the first setting,
+    <br>you can press A to toggle it :
+    <br><br><img src="editprofile1.jpg">
     <br><br>Some options have a <img src="plusarrow.jpg"> before them, 
     <br>that means that there's a submenu for those options.
-    <br><br>Let's start with the Proxy submenu.
+    <br><br>Submenus can contain three types of settings; Numerical, String or
+    <br>Address.
     </p>
-    <h3>Section 3.1 : Editing the Proxy</h3>
-    <p><img src="proxy0.jpg">
-    <br><br>There are 2 types of settings; Strings & numerical values.
+
+    <section id="Editing-Num">
+      <h3>Section 3.1 : Editing A Numerical Setting</h3>
+      <p>Let's start by editing the Proxy port :
+      <br><br><img src="proxy0.jpg">
+      <br><br>If you press A, a Numpad will show up on the screen :
+      <br><br><img src="proxy1.jpg">
+      <br><br>By aiming at it with the Wii Remote, you can write a numerical value
+      <br>(In this case it's the Port, which has to be between 0 & 34463).
+    </section>
+
+    <section id="Editing-Str">
+      <h3>Section 3.2 : Editing A String-type Setting</h3>
+      <p>We'll select the Proxy Server setting :
+      <br><br><img src="proxy2.jpg">
+      <br><br>If you press A, a keyboard will show up on the screen :
+      <br><br><img src="proxy3.jpg">
+      <br><br>By aiming at it with the Wii Remote, you can write a string
+      <br>(In this case it's the Proxy Server).
+    </section>
+
+    <section id="Editing-Addr">
+      <h3>Section 3.3 : Editing An Address-type Setting</h3>
+      <p>When opening the IP or DNS submenu you get something like this :
+      <br><br><img src="DNS0.jpg">
+      <br><br>If you press A on any of the options, a Numpad will show up on the screen :
+      <br><br><img src="DNS1.jpg">
+      <br><br>Similarly to the Numerical setting, you aim at the Numpad to write,
+      <br>but each option has four values to configure.
+      <br>When you're done changing the first value, you move to the next by pressing on the
+      <br>dot character (The app automatically does that if the next digit makes it bigger than 255).
+    </section>
+
     </p>
   </section>
 
