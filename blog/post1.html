@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdelali's Junkyard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Abdelali's<span> Junkyard</span></h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html#about">About</a></li>
+          <li><a href="/index.html#apps">Projects</a></li>
+          <li><a href="/index.html#contact">Contact</a></li>
+          <li><a href="/guides.html">Guides</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:4rem 0;">
+    <article class="post">
+      <h1>Why is it so easy to hack WiFi passwords in Algeria</h1>
+      <p class="post-meta">July 4, 2026 — by Abdelali221</p>
+      <p>Spoiler : it's because households are stupid</p>
+      <h2>A little bit of context</h2>
+      <p style="text-align:left; color:#ccc;">You see, in Algeria, many households use default or weak WiFi passwords, making them easy targets for hackers like myself.
+        <br><br>Most households use routers provided by our ISPs (mainly Ooredoo and Algérie Télécom, I'll refer to the latter as AT next time),<br>
+        AT sells Huawei and ZTE routers to their 4G clients, and if you are unlucky enough to get the ZTE one then you're in danger if you didn't change the default password. Of course, the same thing applies if you buy a Ooredoo router (Ooredoo is worse since they sell only ZTE routers).
+      </p>
+      <h2>What is wrong with ZTE routers</h2>
+      <p style="text-align:left; color:#ccc;">
+        ZTE did the huge mistake of using a 8 character digits only password on their routers, which means that there are exactly 100 million possible password.
+        <br><br>You might think that 100 million is a lot but in reality, it's not that much for a brute force attack, let me explain how we crack WiFi passwords before we continue.
+        <br><br>When a hacker wants to steal a WiFi password, they try to capture the handshake using their laptop or any device that is capable of doing that, after that they take that handshake and use a tool named aircrack-ng (which of course is meant for ethical purposes only) and give it the handshake with a wordlist.
+        <br>Aircrack-ng then tries to match the hashes by trying the passwords one by one until it finds a match or goes to the end without finding anything, my laptop (a Lenovo ThinkPad L480) can try about 8000 passwords per second, and for 100 million passwords that would take about 3 hours and a half.
+        <br>3 hours is not much for a hacker if at the end they get the password, and of course for it to take 3 hours it would need to be at the end of the list (generally it's password starting with later digits like 7, 8 or 9), but if the password is at the start of the list then it would take less than a minute to crack it.
+        <br><br>Oh and let's not forget the people that use their birthdate as their password, I personally call that a rookie mistake because it makes the process way faster for us the hackes.
+      </p>
+      <h2>How to prevent this</h2>
+      <p style="text-align:left; color:#ccc;">
+        So the easiest way to prevent this is to change your WiFi password to a name for example, or even a random string that is longer than 8 characters. You should also change the router's control panel password since it's 
+        <br>also set to "admin" in every router, if you don't change it then a hacker can make your router completely useless by making it inaccessible or by blocking your devices from accessing it.
+      </p>
+      
+      <p><a href="/blog.html" class="btn">Back to Blog</a></p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Abdelali221 - All rights reserved.</p>
+  </footer>
+</body>
+</html>
