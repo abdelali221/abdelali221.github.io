@@ -30,12 +30,12 @@
       <p>Spoiler : it's because households are stupid</p>
       <h2>A little bit of context</h2>
       <p style="text-align:left; color:#ccc;">You see, in Algeria, many households use default or weak WiFi passwords, making them easy targets for hackers like myself.
-        <br><br>Most households use routers provided by our ISPs (mainly Ooredoo and Algérie Télécom, I'll refer to the latter as AT next time),<br>
+        <br><br>Most households use routers provided by our ISPs (mainly Ooredoo and Algérie Télécom, I'll refer to the latter as AT next time).<br>
         AT sells Huawei and ZTE routers to their 4G clients, and if you are unlucky enough to get the ZTE one then you're in danger if you didn't change the default password. Of course, the same thing applies if you buy a Ooredoo router (Ooredoo is worse since they sell only ZTE routers).
       </p>
       <h2>What is wrong with ZTE routers</h2>
       <p style="text-align:left; color:#ccc;">
-        ZTE did the huge mistake of using a 8 character digits only password on their routers, which means that there are exactly 100 million possible password.
+        ZTE did the huge mistake of using a 8 character digits only password on their routers, which means that there are exactly 100 million possible passwords.
         <br><br>You might think that 100 million is a lot but in reality it's not that much for a brute force attack, let me explain how we crack WiFi passwords before we continue.
         <br><br>When a hacker wants to steal a WiFi password, they try to capture the handshake using their laptop or any device that is capable of doing that, after that they take that handshake and use a tool named aircrack-ng (which of course is meant for ethical purposes only) and give it the handshake with a wordlist.
         <br>Aircrack-ng then tries to match the hashes by trying the passwords one by one until it finds a match or goes to the end without finding anything, my laptop (a Lenovo ThinkPad L480) can try about 8000 passwords per second, and for 100 million passwords that would take about 3 hours and a half.
